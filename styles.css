@@ -1,0 +1,136 @@
+body {
+  height: 100vh;
+  background: #d384db;
+  text-align: center;
+  padding: 60px 150px;
+}
+
+.main h1 {
+  font-size: 35px;
+}
+
+.main h2 {
+  font-size: 30px;
+}
+
+#goals p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.details p {
+  font-size: 20px;
+}
+
+#links {
+  padding-top: 20px;
+}
+
+#links h3 {
+  font-size: 30px;
+}
+
+#links ul {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+#links a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#links a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+Footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding: 30px 50px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .main h2 {
+    font-size: 25px;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .details p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 40px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .main h2 {
+    font-size: 25px;
+  }
+
+  #goals p {
+    font-size: 18px;
+  }
+
+  .details p {
+    font-size: 15px;
+  }
+
+  #links h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 10px 20px;
+  }
+
+  .main h1 {
+    font-size: 28px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+  }
+
+  #goals p {
+    font-size: 20px;
+  }
+
+  .details {
+    padding-top: 20px;
+  }
+
+  .details p {
+    font-size: 20px;
+  }
+
+  #links {
+    font-size: 18px;
+  }
+}
