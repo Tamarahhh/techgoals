@@ -54,6 +54,7 @@ Footer a:hover {
 @media (max-width: 992px) {
   body {
     padding: 30px 50px;
+    background: #a886ac;
   }
 
   .main h1 {
@@ -82,6 +83,7 @@ Footer a:hover {
 @media (max-width: 768px) {
   body {
     padding: 20px 40px;
+    background: #969097;
   }
 
   .main h1 {
@@ -108,6 +110,7 @@ Footer a:hover {
 @media (max-width: 576px) {
   body {
     padding: 10px 20px;
+    background: #b7b0b7;
   }
 
   .main h1 {

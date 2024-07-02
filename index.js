@@ -6,12 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateDateTime() {
     const now = new Date();
-    const options = { weekday: "long" };
-    const dayOfWeek = new Intl.DateTimeFormat("en-US", options).format(now);
-    const utcTime = now.toISOString().split("T")[1].split(".")[0];
+    const dayOfWeek = now.toLocaleString("en-US", { weekday: "long" });
+    const utcDateString = now.toUTCString().split(" ").slice(1, 5).join(" ");
 
     currentDay.innerHTML = dayOfWeek;
-    currentTimeUTC.innerHTML = utcTime;
+    currentTimeUTC.innerHTML = utcDateString + " UTC";
   }
 
   setInterval(updateDateTime, 1000);
